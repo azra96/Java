@@ -1,7 +1,5 @@
 package src;
-
 public class Warmup1 {
-
     /*
     The parameter weekday is true if it is a weekday, and the parameter vacation is true
     if we are on vacation. We sleep in if it is not a weekday or we're on vacation.
@@ -11,11 +9,25 @@ public class Warmup1 {
     sleepIn(true, false) → false
     sleepIn(false, true) → true
     */
-
     public boolean sleepIn(boolean weekday, boolean vacation) {
-
-        return true;
+        if (!weekday || vacation) {
+            return true;
+        }
+        return false;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
